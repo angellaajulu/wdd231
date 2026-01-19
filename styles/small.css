@@ -1,0 +1,180 @@
+:root {
+    --dark: #2b2b2b;
+    --light: #f4f4f4;
+    --card: #e0e0e0;
+    --accent: #3b82f6;
+    --text: #111827;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: var(--light);
+    color: var(--text);
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: var(--dark);
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.header-content img {
+    width: 40px;
+    height: auto;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#menu {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* ---------- NAV ---------- */
+nav {
+    display: none;
+    flex-direction: column;
+    background-color: #1f2933;
+}
+
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: var(--accent);
+}
+
+nav.open {
+    display: flex;
+}
+
+/* ---------- MAIN ---------- */
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.intro {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.intro div {
+    background-color: var(--card);
+    padding: 1rem;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------- COURSES ---------- */
+.certificate {
+    background-color: var(--card);
+    padding: 1rem;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filters button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--dark);
+    color: white;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: var(--accent);
+}
+
+#courses {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.course {
+    background-color: white;
+    padding: 0.75rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.course.completed {
+    background-color: #dbeafe;
+    border-color: var(--accent);
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.social a {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.social a:hover {
+    color: #3b82f6;
+}
+
+.social img {
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
+}
+
+.social a:hover img {
+    filter: invert(45%) sepia(85%) saturate(400%) hue-rotate(200deg);
+}

@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD231</title>
+    <title>WDD 231 | Home</title>
+    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="author" content="Angella Evelyn Ajulu">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TckleMgN2HOfkBaFk38fjaLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!--css-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--js-->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD231 - Angella</h1>
-    <p>Welcome!</p>
-    
+    <header>
+        <div class="header-content">
+            <img src="images/logos.png" alt="site logo">
+            <span class="name">Angella E. Ajulu</span>
+            <button id="menu" aria-label="menu"></button>
+        </div>
+    </header>
+
+    <nav id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="intro">
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    I am web development student learning HTML, CSS, and JavaScript.
+                    Welcome to my project home page.
+                </p>
+            </div>
+
+            <div class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/photo.jpg" alt="Profile photo">
+            </div>
+        </section>
+
+        <section class="certificate">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button data-filter="all">ALL</button>
+                <button data-filter="wdd">WDD</button>
+                <button data-filter="cse">CSE</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p class="credits">
+                The total credits for course listed above
+                <span id="credits">0</span>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/" target="_blank" aria-label="Github">
+                <img src="images/icons/github.svg" alt="GitHub icon">
+            </a>
+            <a href="https://www.linkedin.com/in/" target="_blank" aria-label="LinkedIn">
+                <img src="images/icons/linkedin.svg" alt="LinkedIn icon">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+                <img src="images/icons/youtube.svg" alt="YouTube icon">
+            </a>
+        </div>
+
+        <p>
+            ©<span id="currentyear"></span> • Angella Evelyn Ajulu • Uganda
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
 </body>
+
 </html>

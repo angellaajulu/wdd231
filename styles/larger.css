@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .intro {
+        grid-template-columns: 2fr 1fr;
+
+    }
+
+    #courses {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+}
