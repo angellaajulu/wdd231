@@ -42,9 +42,14 @@ header {
     border: none;
     color: white;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
-/* ---------- NAV ---------- */
+#menu:focus {
+    outline: 2px solid var(--accent);
+}
+
+/* ---------- NAVIGATION ---------- */
 nav {
     display: none;
     flex-direction: column;
@@ -55,6 +60,9 @@ nav a {
     color: white;
     padding: 1rem;
     text-decoration: none;
+    display: block;
+    min-height: 48px;
+    box-sizing: border-box;
 }
 
 nav a:hover,

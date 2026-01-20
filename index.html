@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 231 | Home Page</title>
-    <meta name="description" content="WDD 231 Course Home Page">
+    <meta name="description"
+        content="This course home page showcases my WDD 231 coursework, responsive web design skills, and dynamic JavaScript features.">
     <meta name="author" content="Angella Evelyn Ajulu">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TckleMgN2HOfkBaFk38fjaLA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
 
     <!--css-->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -26,18 +28,17 @@
 <body>
     <header>
         <div class="header-content">
-            <img src="images/logos.png" alt="site logo">
+            <img src="images/icons/logos.svg" alt="site logo">
             <span class="name">Angella E. Ajulu</span>
-            <button id="menu" aria-label="menu"></button>
+            <button id="menu" aria-label="open navigation menu">&#9776;</button>
         </div>
+
+        <nav id="nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Chamber</a>
+            <a href="#">Final</a>
+        </nav>
     </header>
-
-    <nav id="nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="#">Chamber</a>
-        <a href="#">Final</a>
-    </nav>
-
     <main>
         <h1>Home</h1>
 
@@ -67,7 +68,7 @@
             <div id="courses"></div>
 
             <p class="credits">
-                The total credits for course listed above
+                The total credits for course listed above:
                 <span id="credits">0</span>
             </p>
         </section>
@@ -75,13 +76,13 @@
 
     <footer>
         <div class="social">
-            <a href="https://github.com/" target="_blank" aria-label="Github">
+            <a href="https://github.com/angellaajulu" target="_blank" aria-label="Github">
                 <img src="images/icons/github.svg" alt="GitHub icon">
             </a>
-            <a href="https://www.linkedin.com/in/" target="_blank" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/angella-evelyn-ajulu-7928a9364" target="_blank" aria-label="LinkedIn">
                 <img src="images/icons/linkedin.svg" alt="LinkedIn icon">
             </a>
-            <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+            <a href="https://www.youtube.com/@Angellaevelyn" target="_blank" aria-label="YouTube">
                 <img src="images/icons/youtube.svg" alt="YouTube icon">
             </a>
         </div>
