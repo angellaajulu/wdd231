@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Emmacom IT Solutions",
+            "address": "Plot 15 Kumi Road",
+            "phone": "+256 789 404022",
+            "website": "https:// emmacomitsol.com",
+            "image": "image1.webp",
+            "membership": 1,
+            "description": "IT and Technology Solutions."
+        },
+        {
+            "name": "Cossy Point",
+            "address": "Mbale District",
+            "phone": "+256 766 343455",
+            "website": "https://cossypoint.com",
+            "image": "image2.webp",
+            "membership": 2,
+            "description": "Restaurant and Catering services."
+        },
+        {
+            "name": "Kumi Resort",
+            "address": "Kumi",
+            "phone": "+256 700 999977",
+            "website": "https://kumiresortltd.ug",
+            "image": "image3.webp",
+            "membership": 3,
+            "description": "Hotel and Accommodation"
+        },
+        {
+            "name": "Abrah Shopping centre",
+            "address": "Mbale",
+            "phone": "+256 744 898966",
+            "website": "https://abrahshoppince.ug",
+            "image": "image4.webp",
+            "membership": 1,
+            "description": "Grocery Store"
+        },
+        {
+            "name": "Wapa Courts",
+            "address": "Mbale city",
+            "phone": "+256 777 333222",
+            "website": "https://wapacoutrs.com",
+            "image": "image5.webp",
+            "membership": 2,
+            "description": " Accommodation and Lounges."
+        },
+        {
+            "name": "Teso college",
+            "address": "Soroti",
+            "phone": "+256 367 777777",
+            "website": "https://tesocollege.edu",
+            "image": "image6.webp",
+            "membership": 1,
+            "description": "Education Centre."
+        },
+        {
+            "name": "Local Harvsets Ltd",
+            "address": "Pallisa",
+            "phone": "+256 320 999333",
+            "website": "https://localharvestsltd.com",
+            "image": "image7.webp",
+            "membership": 3,
+            "description": "Agriculture products."
+        }
+    ]
+}

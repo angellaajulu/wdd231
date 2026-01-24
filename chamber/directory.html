@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soroti Chamber of Commerce | Business Directory</title>
+    <meta name="description"
+        content="Explore members of the Soroti Chamber of Commerce and connect with local businesses and owners.">
+    <meta name="author" content="Angella Evelyn Ajulu">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--FACEBOOK og-->
+    <meta property="og:title" content="Soroti Chamber of Commerce Directory">
+    <meta property="og:description"
+        content="Discover businesses and organizations that are members of the Soroti Chamber of Commerce.">
+    <meta property="og:image" content="https://angellaajulu.github.io/wdd231/chamber/images/biz1.webp">
+    <meta property="og:url" content="https://angellaajulu.github.io/wdd231/chamber/directory.html">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--js-->
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Soroti Chamber of Commerce</h1>
+        <nav>
+            <button id="menu"></button>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="directory-controls">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </section>
+
+        <section id="members" class="grid"></section>
+    </main>
+
+    <footer>
+        <p>Contact: infor@sorotichamber.org | +256 700 333111</p>
+        <p>
+            © <span id="year"></span> • Angella Evelyn Ajulu • WDD 231
+            <br>Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
