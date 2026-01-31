@@ -1,3 +1,7 @@
+#menu {
+    display: block;
+}
+
 @media (min-width: 48rem) {
 
     #members.grid {

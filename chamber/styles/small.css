@@ -16,11 +16,13 @@ nav {
 }
 
 #menu {
+    order: -1;
     background: none;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     cursor: pointer;
+    margin-right: auto;
 }
 
 .header-content {
@@ -28,6 +30,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    justify-content: space-between;
 }
 
 .site-name {
@@ -84,6 +87,7 @@ nav {
     position: relative;
     text-align: center;
     color: rgba(255, 255, 255, 0.863);
+    background-color: #1f4e79;
 }
 
 .hero img {

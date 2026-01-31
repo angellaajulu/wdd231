@@ -34,7 +34,7 @@ gridBtn.addEventListener("click", () => {
 
 
     document.querySelectorAll(".member-card img").forEach(img => {
-        img.computedStyleMap.display = "block";
+        img.style.display = "block";
     })
 });
 
@@ -44,7 +44,7 @@ listBtn.addEventListener("click", () => {
 
 
     document.querySelectorAll(".member-card img").forEach(img => {
-        img.computedStyleMap.display = "none";
+        img.style.display = "none";
     });
 });
 
