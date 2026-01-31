@@ -30,7 +30,10 @@
 
     <!--js-->
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
 
 </head>
 
@@ -39,10 +42,10 @@
         <div class="header-content">
             <p class="site-name">Soroti Chamber of Commerce</p>
             <nav>
-                <button id="menu"></button>
+                <button id="menu" aria-label="Menu">&#9776;</button>
                 <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -52,13 +55,33 @@
     </header>
 
     <main>
-        <h1>Business Directory</h1>
-        <section class="directory-controls">
-            <button id="grid">Grid View</button>
-            <button id="list">List View</button>
+        <section class="hero">
+            <img src="images/c-hero.jpg" alt="Soroti landscape view">
+            <div class="hero-text">
+                <h1>Welcome to the Soroti Chamber</h1>
+                <p>Supporting local businesses and strengthening our community.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
         </section>
 
-        <section id="members" class="grid"></section>
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+                <li>Business Networking Breakfast - March 13</li>
+                <li>Small Business Workshop - March 16</li>
+                <li>Annual Gala - April 4</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Local Weather</h2>
+            <div id="weather-container"></div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
     </main>
 
     <footer>
