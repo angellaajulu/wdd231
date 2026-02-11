@@ -8,6 +8,23 @@ const courses = [
 
 const container = document.getElementById("courses");
 const creditSpan = document.getElementById("credits");
+const courseDialog = document.getElementById("course-details");
+
+function displayCourseDetails(course) {
+    courseDialog.innerHTML = `
+        <button class="dialog-close" aria-label="Close">&times;</button>
+        <h2>${course.code}</h2>
+        <h3>${course.name}</h3>
+        <p><strong>Credits:</strong> ${course.credits}</p>
+        <p><strong>Status:</strong> ${course.completed ? "Completed" : "In Progress"}</p>
+    `;
+
+    courseDialog.showModal();
+
+    courseDialog.querySelector(".dialog-close").addEventListener("click", () => {
+        courseDialog.close();
+    })
+}
 
 function displayCourses(list) {
     container.innerHTML = "";
@@ -20,6 +37,10 @@ function displayCourses(list) {
         if (course.completed) div.classList.add("completed");
 
         div.innerHTML = `<strong>${course.code}</strong> - ${course.name}`;
+        div.addEventListener("click", () => {
+            displayCourseDetails(course);
+        })
+
         container.appendChild(div);
     });
 }

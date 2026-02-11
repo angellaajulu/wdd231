@@ -44,4 +44,15 @@
         color: wheat;
     }
 
+    @media (min-width: 48rem) {
+        .form-container {
+            max-width: 900px;
+            margin: 2rem auto;
+        }
+
+        form {
+            padding: 2rem 3rem;
+        }
+    }
+
 }
