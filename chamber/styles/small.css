@@ -218,7 +218,6 @@ nav {
     margin-bottom: 1rem;
 }
 
-/* Form card */
 form {
     background-color: #ffffff;
     padding: 1.5rem;
@@ -228,7 +227,6 @@ form {
     margin: 0 auto;
 }
 
-/* Labels */
 form label {
     display: block;
     margin-bottom: 1rem;
@@ -236,7 +234,6 @@ form label {
     color: #1f4e79;
 }
 
-/* Inputs, select, textarea */
 form input,
 form select,
 form textarea {
@@ -248,13 +245,11 @@ form textarea {
     font-family: "Roboto", sans-serif;
 }
 
-/* Textarea height */
 form textarea {
     min-height: 80px;
     resize: vertical;
 }
 
-/* Submit button */
 form input[type="submit"] {
     background-color: #f4b400;
     color: #1f4e79;
@@ -265,7 +260,6 @@ form input[type="submit"] {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect */
 form input[type="submit"]:hover {
     background-color: #e09c00;
     color: white;
