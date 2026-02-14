@@ -16,14 +16,16 @@ nav {
 }
 
 #menu {
-    order: -1;
+    margin-left: auto;
     background: none;
     border: none;
-    font-size: 2rem;
     color: white;
+    font-size: 1.8rem;
     cursor: pointer;
-    margin-right: auto;
-    display: block;
+}
+
+#menu:focus {
+    outline: 2px solid var(--accent);
 }
 
 .header-content {
