@@ -329,6 +329,8 @@ form input[type="submit"]:hover {
     width: 100%;
     height: auto;
     border-radius: 6px;
+    max-width: 300px;
+    display: block;
 }
 
 .discover-card button {
