@@ -17,7 +17,6 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 0.5rem;
-
     }
 
     .hero-text h1 {
@@ -44,15 +43,48 @@
         color: wheat;
     }
 
-    @media (min-width: 48rem) {
-        .form-container {
-            max-width: 900px;
-            margin: 2rem auto;
-        }
-
-        form {
-            padding: 2rem 3rem;
-        }
+    /* JOIN FORM STYLES */
+    .form-container,
+    .join-form {
+        max-width: 900px;
+        margin: 2rem auto;
     }
 
+    form {
+        padding: 2rem 3rem;
+    }
+
+
+    /* DISCOVER PAGE */
+
+    .discover-grid {
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+
+    .discover-card img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .discover-card button {
+        width: auto;
+        align-self: flex-start;
+    }
+
+    .discover-card button:hover {
+        background-color: #163a59;
+        transform: translateY(-2px);
+    }
+
+    .discover-card button:active {
+        transform: translateY(0);
+    }
 }

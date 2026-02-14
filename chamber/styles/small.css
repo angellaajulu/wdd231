@@ -289,3 +289,67 @@ form input[type="submit"]:hover {
         transform: translateY(0);
     }
 }
+
+.discover {
+    padding: 1rem;
+}
+
+.visit-message {
+    background-color: #eef6fb;
+    color: #1f4e79;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.discover-grid {
+    display: grid;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.discover-card {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.discover-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.discover-card button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+    background-color: #1f4e79;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease,
+        transform 0.2s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

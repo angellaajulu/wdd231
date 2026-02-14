@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Soroti | Soroti Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Discover Soroti’s attractions, culture, and business environment through the Soroti Chamber of Commerce.">
+    <meta name="author" content="Angella Evelyn Ajulu">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- FACEBOOK og-->
+    <meta property="og:title" content="Discover Soroti">
+    <meta property="og:description" content="Explore key attractions and features of Soroti, Uganda.">
+    <meta property="og:image" content="https://angellaajulu.github.io/wdd231/chamber/images/biz1.webp">
+    <meta property="og:url" content="https://angellaajulu.github.io/wdd231/chamber/discover.html">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- JS -->
+    <script src="scripts/discover.js" type="module" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <p class="site-name">Soroti Chamber of Commerce</p>
+            <nav>
+                <button id="menu" aria-label="Menu">&#9776;</button>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html" class="active">Discover</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="discover">
+        <h1 class="page-title">Discover Soroti</h1>
+
+        <section id="visitMessage" class="visit-message"></section>
+        <section class="discover-grid" id="discoverGrid"></section>
+    </main>
+
+    <footer>
+        <p>Contact: info@sorotichamber.org | +256 700 333111</p>
+        <p>
+            © <span id="year"></span> • Angella Evelyn Ajulu • WDD 231
+            <br>Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+
+</html>
