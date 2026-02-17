@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact|Kampala Local Tourism Guide</title>
+    <meta name="description" content="Contact Kampala Local Tourism Guide.">
+    <meta name="author" content="Angella Evelyn Ajulu">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kampala Local Tourism Guide">
+    <meta property="og:description" content="Discover local attractions in Kampala.">
+    <meta property="og:type" content="website">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- js -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/storage.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <button id="menu" aria-label="Open navigation menu"></button>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="contact.html" class="active">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="form-action.html" method="get">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label>
+                    Name:
+                    <input type="text" name="name" required aria-label="Your name">
+                </label>
+
+                <label>
+                    Email:
+                    <input type="email" name="email" required aria-label="Your email address">
+                </label>
+
+                <label>
+                    Interest:
+                    <select name="interest">
+                        <option value="culture">Culture</option>
+                        <option value="nature">Nature</option>
+                        <option value="entertainment">Entertainment</option>
+                    </select>
+                </label>
+
+                <label>
+                    Message:
+                    <textarea name="message" aria-label="Your message"></textarea>
+                </label>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span> • Angella Evelyn Ajulu • Uganda
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

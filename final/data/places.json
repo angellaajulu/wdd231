@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Kasubi Tombs",
+        "category": "Culture",
+        "location": "Kampala",
+        "description": "UNESCO heritage site",
+        "images": "images/kasubi tomb.png",
+        "alt": "Kasubi tombs"
+    },
+    {
+        "name": "Uganda Museum",
+        "category": "Museum",
+        "location": "Kira Road",
+        "description": "National history museum.",
+        "image": "images/ug-museum.png",
+        "alt": "Uganda Museum"
+    },
+    {
+        "name": "Bahai Temple",
+        "category": "Religious",
+        "location": "Kikaya Hill",
+        "description": "Only Bahai temple in Africa.",
+        "image": "images/bahai-temple.png",
+        "alt": "Bahai Temple"
+    },
+    {
+        "name": "Ndere Centre",
+        "category": "Culture",
+        "location": "Ntinda",
+        "description": "Traditional performances.",
+        "image": "images/market.png",
+        "alt": "Ndere Centre"
+    },
+    {
+        "name": "Kabaka’s Palace",
+        "category": "Historical",
+        "location": "Mengo",
+        "description": "Royal palace.",
+        "image": "images/palace.png",
+        "alt": "Kabaka's palace"
+    },
+    {
+        "name": "Owino Market",
+        "category": "Market",
+        "location": "Downtown",
+        "description": "Local market.",
+        "image": "images/owino.png",
+        "alt": "market place"
+    },
+    {
+        "name": "Centenary Park",
+        "category": "Park",
+        "location": "Jinja Road",
+        "description": "Relaxation park.",
+        "image": "images/park.png",
+        "alt": "park view"
+    },
+    {
+        "name": "Gaddafi Mosque",
+        "category": "Religious",
+        "location": "Old Kampala",
+        "description": "Largest mosque.",
+        "image": "images/mosque.png",
+        "alt": "Gaddafi Mosque"
+    },
+    {
+        "name": "Namugongo Shrine",
+        "category": "Religious",
+        "location": "Namugongo",
+        "description": "Martyrs shrine.",
+        "image": "images/shrine.png",
+        "alt": "Namugongo Shrines"
+    },
+    {
+        "name": "Lake Victoria",
+        "category": "Nature",
+        "location": "Entebbe",
+        "description": "Largest lake in Africa.",
+        "image": "images/lake-victoria.jpg",
+        "alt": "Lake Victoria"
+    },
+    {
+        "name": "Craft Village",
+        "category": "Shopping",
+        "location": "Buganda Road",
+        "description": "Handmade crafts.",
+        "image": "images/craft-village.png",
+        "alt": "traditional centre"
+    },
+    {
+        "name": "Wonder World",
+        "category": "Recreation",
+        "location": "Kansanga",
+        "description": "Family park.",
+        "image": "images/wonder.png",
+        "alt": "Amusement park"
+    },
+    {
+        "name": "Acacia Mall",
+        "category": "Shopping",
+        "location": "Kololo",
+        "description": "Modern mall.",
+        "image": "images/acacia.png",
+        "alt": "Mall"
+    },
+    {
+        "name": "Sheraton Gardens",
+        "category": "Relaxation",
+        "location": "City Center",
+        "description": "Green space.",
+        "image": "images/gardens.png",
+        "alt": "Sheraton"
+    },
+    {
+        "name": "Independence Monument",
+        "category": "Historical",
+        "location": "Speke Road",
+        "description": "National monument.",
+        "image": "images/monument.png",
+        "alt": "Independence monument"
+    }
+]
